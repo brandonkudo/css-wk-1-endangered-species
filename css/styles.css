@@ -4,21 +4,22 @@
 body {
   background-image: url("../img/map.jpeg");
   background-repeat: no-repeat;
+  background-position: 0px 200px;
   position: relative;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 70px;
   font-family: 'Audiowide', cursive;
   position: relative;
-  top: 0px;
-  left: 650px;
+  top: -10px;
+  left: 475px;
 }
 
 #polaroidone {
   position: absolute;
   width: 150px;
-  top: 90px;
+  top: 290px;
   left: 1150px;
 }
 
@@ -26,153 +27,407 @@ h1 {
   position: absolute;
   width: 103px;
   height: 105px;
-  top: 108px;
+  top: 308px;
   left: 1170px;
 }
 
 #beebattext {
   display: none;
   position: absolute;
-  top: 108px;
-  left: 1170px;
+  top: 400px;
+  left: 1172px;
 }
 
 #beebat:hover ~ #beebattext {
   display: block;
 }
 
+#beebattextscience {
+  display: none;
+  position: absolute;
+  top: 460px;
+  left: 1120px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 10px 10px 15px #888888;
+}
+
+#beebat:hover ~ #beebattextscience {
+  display: block;
+}
 
 #polaroidtwo {
   position: absolute;
   width: 150px;
-  top: 90px;
+  top: 290px;
   left: 350px;
 }
 
 #frogpic {
   position: absolute;
-  top: 108px;
+  top: 308px;
   left: 370px;
   width: 103px;
   height: 105px;
 }
 
+#frogtext {
+  display: none;
+  position: absolute;
+  background-color: white;
+  font-size: 11px;
+  top: 408px;
+  left: 366px;
+}
+
+#frogpic:hover ~ #frogtext {
+  display: block;
+}
+
+#frogtextscience {
+  display: none;
+  position: absolute;
+  top: 440px;
+  left: 360px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 10px 10px 15px #888888;
+}
+
+#frogpic:hover ~ #frogtextscience {
+  display: block;
+}
+
 #polaroidthree {
   position: absolute;
   width: 150px;
-  top: 750px;
+  top: 950px;
   left: 1000px;
 }
 
 #whalepic {
   position: absolute;
-  top: 768px;
+  top: 968px;
   left: 1020px;
   width: 103px;
   height: 105px;
 }
 
+#whaletext {
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 1058px;
+  left: 1030px;
+}
+
+#whalepic:hover ~ #whaletext {
+  display: block;
+}
+
+#whaletextscience {
+  display: none;
+  position: absolute;
+  top: 1098px;
+  left: 990px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 10px 10px 15px #888888;
+}
+
+#whalepic:hover ~ #whaletextscience {
+  display: block;
+}
+
 #polaroidfour {
   position: absolute;
   width: 150px;
-  top: 600px;
+  top: 700px;
   left: 1400px;
 }
 
 #eaglepic {
   position: absolute;
-  top: 618px;
+  top: 718px;
   left: 1420px;
   width: 103px;
   height: 105px;
 }
 
+#eagletext {
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 809px;
+  left: 1440px;
+}
+
+#eaglepic:hover ~ #eagletext {
+  display: block;
+}
+
+#eagletextscience {
+  display: none;
+  position: absolute;
+  top: 878px;
+  left: 1420px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 10px 10px 15px #888888;
+}
+
+#eaglepic:hover ~ #eagletextscience {
+  display: block;
+}
+
 #polaroidfive {
   position: absolute;
   width: 150px;
-  top: 400px;
+  top: 600px;
   left: 420px;
 }
 
 #manatee {
   position: absolute;
-  top: 417px;
+  top: 617px;
   left: 440px;
   width: 103px;
   height: 105px;
 }
 
+#manateetext {
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 715px;
+  left: 440px;
+  font-size: 12px;
+}
+
+#manatee:hover ~ #manateetext {
+  display: block;
+}
+
+#manateetextscience {
+  display: none;
+  position: absolute;
+  top: 770px;
+  left: 430px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 10px 10px 15px #888888;
+}
+
+#manatee:hover ~ #manateetextscience {
+  display: block;
+}
+
 #polaroidsix {
   position: absolute;
   width: 150px;
-  top: 200px;
+  top: 400px;
   left: 700px;
 }
 
 #sawfish {
   position: absolute;
-  top: 218px;
+  top: 418px;
   left: 720px;
   width: 103px;
   height: 105px;
 }
 
+#sawfishtext {
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 510px;
+  left: 743px;
+  font-size: 14;
+}
+
+#sawfish:hover ~ #sawfishtext {
+  display: block;
+}
+
+#sawfishtextscience {
+  display: none;
+  position: absolute;
+  top: 550px;
+  left: 717px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 10px 10px 15px #888888;
+}
+
+#sawfish:hover ~ #sawfishtextscience {
+  display: block;
+}
+
 #polaroidseven {
   position: absolute;
   width: 150px;
-  top: 40px;
+  top: 240px;
   left: 860px;
 }
 
 #bat {
   position: absolute;
-  top: 58px;
+  top: 258px;
   left: 880px;
   width: 103px;
   height: 105px;
+}
+
+#battext {
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 351px;
+  left: 882px;
+  font-size: 14;
+}
+
+#bat:hover ~ #battext {
+  display: block;
+}
+
+#battextscience {
+  display: none;
+  position: absolute;
+  top: 301px;
+  left: 680px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 10px 10px 15px #888888;
+}
+
+#bat:hover ~ #battextscience {
+  display: block;
 }
 
 #polaroideight {
   position: absolute;
   width: 150px;
-  top: 450px;
+  top: 650px;
   left: 860px;
 }
 
 #sifaka {
   position: absolute;
-  top: 468px;
+  top: 668px;
   left: 880px;
   width: 103px;
   height: 105px;
 }
 
+#sifakatext {
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 763px;
+  left: 883px;
+  font-size: 14px;
+}
+
+#sifaka:hover ~ #sifakatext {
+  display: block;
+}
+
+#sifakatextscience {
+  display: none;
+  position: absolute;
+  top: 818px;
+  left: 870px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 10px 10px 15px #888888;
+}
+
+#sifaka:hover ~ #sifakatextscience {
+  display: block;
+}
+
 #polaroidnine {
   position: absolute;
   width: 150px;
-  top: 200px;
+  top: 400px;
   left: 950px;
 }
 
 #ostrich {
   position: absolute;
-  top: 218px;
+  top: 418px;
   left: 970px;
   width: 103px;
   height: 105px;
 }
 
+#ostrichtext {
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 510px;
+  left: 999px;
+  font-size: 16px;
+}
+
+#ostrich:hover ~ #ostrichtext {
+  display: block;
+}
+
+#ostrichtextscience {
+  display: none;
+  position: absolute;
+  top: 580px;
+  left: 970px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 10px 10px 15px #888888;
+}
+
+#ostrich:hover ~ #ostrichtextscience {
+  display: block;
+}
+
 #polaroidten {
   position: absolute;
   width: 150px;
-  top: 75px;
+  top: 475px;
   left: 1300px;
 }
 
 #monkey {
   position: absolute;
-  top: 92px;
+  top: 492px;
   left: 1320px;
   width: 103px;
   height: 105px;
+}
+
+#monkeytext {
+  display: none;
+  position: absolute;
+  background-color: white;
+  top: 587px;
+  left: 1320px;
+  font-size: 14px;
+}
+
+#monkey:hover ~ #monkeytext {
+  display: block;
+}
+
+#monkeytextscience {
+  display: none;
+  position: absolute;
+  top: 630px;
+  left: 1325px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 10px 10px 15px #888888;
+}
+
+#monkey:hover ~ #monkeytextscience {
+  display: block;
 }
