@@ -1,0 +1,22 @@
+body {
+  background-image: url("../img/map.jpeg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#polaroidone {
+  position: absolute;
+  width: 150px;
+  top: 90px;
+  left: 1150px;
+
+}
+
+#beebat {
+  position: absolute;
+  width: 103px;
+  height: 105px;
+  top: 108px;
+  left: 1170px;
+
+}
