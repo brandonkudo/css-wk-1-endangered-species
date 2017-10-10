@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+
 body {
   background-image: url("../img/map.jpeg");
   background-repeat: no-repeat;
   position: relative;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Audiowide', cursive;
+  position: relative;
+  top: 0px;
+  left: 650px;
 }
 
 #polaroidone {
@@ -9,7 +20,6 @@ body {
   width: 150px;
   top: 90px;
   left: 1150px;
-
 }
 
 #beebat {
@@ -18,5 +28,151 @@ body {
   height: 105px;
   top: 108px;
   left: 1170px;
+}
 
+#beebattext {
+  display: none;
+  position: absolute;
+  top: 108px;
+  left: 1170px;
+}
+
+#beebat:hover ~ #beebattext {
+  display: block;
+}
+
+
+#polaroidtwo {
+  position: absolute;
+  width: 150px;
+  top: 90px;
+  left: 350px;
+}
+
+#frogpic {
+  position: absolute;
+  top: 108px;
+  left: 370px;
+  width: 103px;
+  height: 105px;
+}
+
+#polaroidthree {
+  position: absolute;
+  width: 150px;
+  top: 750px;
+  left: 1000px;
+}
+
+#whalepic {
+  position: absolute;
+  top: 768px;
+  left: 1020px;
+  width: 103px;
+  height: 105px;
+}
+
+#polaroidfour {
+  position: absolute;
+  width: 150px;
+  top: 600px;
+  left: 1400px;
+}
+
+#eaglepic {
+  position: absolute;
+  top: 618px;
+  left: 1420px;
+  width: 103px;
+  height: 105px;
+}
+
+#polaroidfive {
+  position: absolute;
+  width: 150px;
+  top: 400px;
+  left: 420px;
+}
+
+#manatee {
+  position: absolute;
+  top: 417px;
+  left: 440px;
+  width: 103px;
+  height: 105px;
+}
+
+#polaroidsix {
+  position: absolute;
+  width: 150px;
+  top: 200px;
+  left: 700px;
+}
+
+#sawfish {
+  position: absolute;
+  top: 218px;
+  left: 720px;
+  width: 103px;
+  height: 105px;
+}
+
+#polaroidseven {
+  position: absolute;
+  width: 150px;
+  top: 40px;
+  left: 860px;
+}
+
+#bat {
+  position: absolute;
+  top: 58px;
+  left: 880px;
+  width: 103px;
+  height: 105px;
+}
+
+#polaroideight {
+  position: absolute;
+  width: 150px;
+  top: 450px;
+  left: 860px;
+}
+
+#sifaka {
+  position: absolute;
+  top: 468px;
+  left: 880px;
+  width: 103px;
+  height: 105px;
+}
+
+#polaroidnine {
+  position: absolute;
+  width: 150px;
+  top: 200px;
+  left: 950px;
+}
+
+#ostrich {
+  position: absolute;
+  top: 218px;
+  left: 970px;
+  width: 103px;
+  height: 105px;
+}
+
+#polaroidten {
+  position: absolute;
+  width: 150px;
+  top: 75px;
+  left: 1300px;
+}
+
+#monkey {
+  position: absolute;
+  top: 92px;
+  left: 1320px;
+  width: 103px;
+  height: 105px;
 }
